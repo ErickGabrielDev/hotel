@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: "M PLUS Rouned 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url(https://digital.ihg.com/is/image/ihg/ihgor-member-rate-web-offers-1440x720);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button{
+    width: 70%;
+    height: 10vh;
+    position: relative;
+    top: 4%;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(57, 120, 214);
+    background-color: rgb(155, 111, 61);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid blue;
+    border-radius: 25px;
+    font-weight: 900;
+}
+
+.button1:hover{
+background-color: #81d8d0;
+color: rgb(0, 0, 0);   
+}
